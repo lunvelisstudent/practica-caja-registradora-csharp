@@ -1,5 +1,4 @@
 using System;
-using System.Globalization;
 
 /*
  * Práctica: "Caja Registradora de la Papelería"
@@ -11,10 +10,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Para que se vean bien los acentos y para escribir los decimales con punto (45.67)
-        Console.OutputEncoding = System.Text.Encoding.UTF8;
-        CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
-
         int opcion;
 
         do
